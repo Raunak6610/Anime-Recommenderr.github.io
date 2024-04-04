@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime Recommender</title>
+    <link rel="icon" type="image/png" href="Real.png">
+    <style>
+        body {
+    background-color: grey;
+}
+
+h2 {
+    color: #5b66dc;
+    font-size: 45px;
+    font-weight: 600;
+    background-image: linear-gradient(to bottom left, #000000, #4400ff);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+h3 {
+    color: #5b66dc;
+    font-size: 45px;
+    font-weight: 600;
+    background-image: linear-gradient(to bottom left, #4400ff, #000000);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+form {
+    font-size: 30px;
+    text-align: center;
+}
+
+#submit {
+    width: calc(20% - 10px);
+    padding: 10px; /* Increased padding for a bigger button */
+    background-image: linear-gradient(to bottom left, #fffafa, #000000);
+    color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 29px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    margin: 10px;
+    text-align: center;
+    text-decoration: underline rgb(198, 105, 105);
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    -webkit-text-fill-color: #403568;
+}
+
+input {
+    background-image: linear-gradient(to bottom left, #4400ff, #000000);
+    color: transparent;
+}
+
+    </style>
+</head>
+<body>
+    <center>
+    <h2>
+        Please fill the following
+    </h2>
+</center>
+        <h3>Question 1:</h3>
+        <form>
+         <b> <label for="fname">First name:</label><br></b>
+            <input type="text" id="fname" name="fname" placeholder="First Name" required><br><br>
+    
+           <b><label for="lname">Last name:</label><br></b>
+            <input type="text" id="lname" name="lname" placeholder="Last Name" required>
+        </form>
+
+        <h3>Question 2:</h3>
+        <form>
+            <b>
+            <label for="Gender">Gender:</label>
+            </b>
+    
+            <label for="Male">Male</label>
+            <input type="radio" id="Male" value="Male" name="Gender"> 
+    
+            <label for="Female">Female</label>
+            <input type="radio" id="Femaleale" value="Female" name="Gender"><br><br>
+
+          </form>
+        
+        <h3>Question 3:</h3>
+        <form>
+            <b>
+            <label for="New">Are you New to Anime?</label>
+            </b>
+
+            <label for="Yes">Yes</label>
+            <input type="radio" id="Yes" value="Yes" name="New">
+
+            <label for="No">No</label>
+            <input type="radio" id="No" value="No" name="New"><br><Br>
+        </form>
+
+        <h3>Question 4:</h3>
+        <form>
+           <b> <label for="Genre">Genre:</label><br></b>
+            <input type="text" id="Genre" name="Genre" placeholder="Ex. Adventure, Fantasy" required><br>
+        </form>
+
+        <h3>Question 5:</h3>
+        <form>
+           <b><label for="Ask">What is your Favorite Anime of all time?</label></b><br>
+           <input type="text" id="Ask" name="Ask" placeholder="Ex. Jujutsu Kaisen" required><br><Br>
+        </form>
+        
+        <a href="rick.html">
+          <center>
+          <button id="submit">SUBMIT</button>
+        </center>
+        </a>
+</body>
+</html>

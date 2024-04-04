@@ -1,0 +1,51 @@
+body {
+    background-color: grey;
+}
+
+h1 {
+    color: #5b66dc;
+    font-size: 49px;
+    font-weight: 600;
+    background-image: linear-gradient(to bottom left, #553c9a, #ee4b2b);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+h4 {
+    font-size: 29px;
+    font-weight: 499;
+    background-image: linear-gradient(to bottom left, #ff0000, #000000);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: calc(25% - 20px);
+    padding: 15px; /* Increased padding for a bigger button */
+    font-size: 29px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    background-image: linear-gradient(to bottom left, #ff0000, #000000, blue);
+    color: transparent;
+    margin: 10px;
+    text-align: center;
+    text-decoration: underline rgb(255, 0, 0);
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    -webkit-text-fill-color: #4682cb;
+}
+
+button:hover {
+    background-color: #1d00ac;
+    transform: scale(1.1);
+    box-shadow: 10px 10px #601d1d;
+}
